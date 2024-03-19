@@ -1,5 +1,3 @@
-// https://es.react.dev/reference/react/useReducer
-
 import { useEffect, useReducer } from 'react';
 import { todoReducer } from '../08 useReducer/todoReducer'; 
 

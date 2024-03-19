@@ -1,4 +1,4 @@
-import { useTodo } from '../hooks';
+import { useTodo } from './hooks/useTodo';
 import { TodoList, AddTodo } from './components';
 
 
