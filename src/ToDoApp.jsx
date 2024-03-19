@@ -1,8 +1,13 @@
-import React from 'react'
+import { useTodo } from '../hooks';
+import { TodoList, AddTodo } from './components';
+
+
 
 export const ToDoApp = () => {
-  
-  
+    
+    const { todos, deleteTodo, handleTodo, toggleTodo, todosCount, pendingTodos } = useTodo();
+    
+    
     return (
     
     <>
