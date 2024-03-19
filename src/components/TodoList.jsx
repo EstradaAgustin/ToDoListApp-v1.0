@@ -1,4 +1,4 @@
-import { TodoItem } from "./TodoItem"
+import { TodoItem } from "./"
 
 export const TodoList = ({ tod, onDeleteTodo, onToggleTodo  }) => {                  // Prop tod recibe todo el state todos [{obj}] del padre.
                                                                                      // Prop onDeleTodo recibe la func deleteTodo del FCPadre y la pasa al FCNieto.
